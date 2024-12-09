@@ -1,0 +1,36 @@
+.book-detail {
+    margin-top: 100px;
+}
+
+.book-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.genre-books .card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.genre-books .card:hover {
+    transform: scale(1.05);
+}
+
+.genre-books .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.book-description {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .book-detail {
+        margin-top: 30px;
+    }
+
+    .genre-books .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
